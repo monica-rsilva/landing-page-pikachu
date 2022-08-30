@@ -127,3 +127,23 @@ footer{
         display: none;
     }
 }
+
+@media (max-width:640px) {
+    .pikachu-image{
+        width: 90vw;
+        transform: translate(-50%,-50%);
+    }
+    .title{
+        transform: translateY(10%);
+    }
+    .description_text{
+        display: none;
+    }
+    .description_title{
+        font-size: 10vw;
+    }
+    .action{
+        width: 100%;
+    }
+   
+}
